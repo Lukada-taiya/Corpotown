@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@popperjs/core": "2.9.2",
+        "animate.css": "3.6.0",
+        "axios": "^0.21",
+        "bootstrap": "4.0.*",
+        "bootstrap-material-design": "4.1.3",
+        "font-awesome": "4.7.0",
+        "jquery": "3.6.0",
+        "laravel-mix": "^6.0.28",
+        "lodash": "^4.17.19",
+        "magnific-popup": "1.1.0",
+        "material-dashboard": "^2.1.0",
+        "owl.carousel": "2.3.4",
+        "perfect-scrollbar": "1.5.1",
+        "postcss": "^8.3.6",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.38.0",
+        "sass-loader": "^12.1.0",
+        "sweetalert2": "11.0.18",
+        "wowjs": "1.1.3"
+    },
+    "dependencies": {
+        "bootstrap-datetime-picker": "^2.4.4",
+        "bootstrap-tagsinput": "^0.7.1",
+        "jquery.countup.js": "^1.0.1",
+        "jquery.dataTables.min.js": "^1.10.5",
+        "popper.js": "^1.16.1",
+        "waypoints": "^4.0.1"
+    }
+}
